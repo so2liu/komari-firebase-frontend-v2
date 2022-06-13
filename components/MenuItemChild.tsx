@@ -1,15 +1,14 @@
-import { PropsWithChildren, Suspense, useCallback } from "react";
+import { PropsWithChildren, useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
-import MenuItemChild from "./MenuItemChild";
+import { useMenuItemV2 } from "../data/firebase/firestore";
 
 interface Props {
     id: string;
-    name: string;
-    price: number;
-    childIds?: string[];
 }
-function MenuItemCard(props: PropsWithChildren<Props>) {
-    const { id, name, price, childIds } = props;
+function MenuItemChild(props: PropsWithChildren<Props>) {
+    const { id } = props;
+    const menuItem = useMenuItemV2(id);
+    const { name, price = 0 } = menuItem.data!;
     const { addItem } = useShoppingCart();
 
     const handleAddItem = useCallback(() => {
@@ -27,13 +26,8 @@ function MenuItemCard(props: PropsWithChildren<Props>) {
                 {name}: {price} Euro
             </h4>
             {price && <button onClick={handleAddItem}>Add to cart</button>}
-            {childIds?.map((childId) => (
-                <Suspense key={childId} fallback={<div>Loading...</div>}>
-                    <MenuItemChild id={childId} />
-                </Suspense>
-            ))}
         </div>
     );
 }
 
-export default MenuItemCard;
+export default MenuItemChild;

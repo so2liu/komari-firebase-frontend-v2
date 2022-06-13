@@ -1,59 +1,72 @@
 type MenuItemSelector = {
     restaurantId: string;
-} & {
-    onDiscount: boolean;
+    discount: boolean;
+    category: "Hauptspeise" | "Sushi" | "Sushiset" | "Angebote" | string;
+    valid: boolean;
 };
 
-export interface MenuItem {
-    id: string;
-    parentId?: string;
-    menuItemId: string;
+export interface MenuItemV2 {
+    skuId: string;
+    childSkuIds?: string[];
+    parentSkuId?: string;
     name: string;
-    price: number;
-    description: string;
+    price?: number;
+    description?: {
+        DE: string;
+        EN?: string;
+    };
     selector: MenuItemSelector;
 }
 
-const menuItems: MenuItem[] = [
+export type MenuV2 = MenuItemV2[];
+
+const menuItems: MenuV2 = [
     {
-        id: "1",
-        menuItemId: "1",
+        skuId: "1",
         name: "Pizza",
         price: 10,
-        description: "Pizza",
+        description: {
+            DE: "Pizza",
+        },
+        childSkuIds: ["3"],
         selector: {
             restaurantId: "1",
-            onDiscount: false,
+            discount: false,
+            category: "main",
+            valid: true,
         },
     },
     {
-        id: "2",
-        menuItemId: "2",
+        skuId: "2",
         name: "Cheap Pizza",
         price: 6,
-        description: "Pizza",
+        description: {
+            DE: "Cheap Pizza",
+        },
         selector: {
             restaurantId: "1",
-            onDiscount: true,
+            discount: true,
+            category: "main",
+            valid: true,
         },
     },
     {
-        id: "3",
-        menuItemId: "3",
+        skuId: "3",
         name: "Pizza with tomato",
-        parentId: "1",
+        parentSkuId: "1",
         price: 15,
-        description: "Pizza",
         selector: {
             restaurantId: "2",
-            onDiscount: false,
+            discount: false,
+            category: "main",
+            valid: true,
         },
     },
 ];
 
-export async function getMenuItems(ids?: string[]): Promise<MenuItem[]> {
+export async function getMenuItems(ids?: string[]): Promise<MenuItemV2[]> {
     if (!ids) {
         return menuItems;
     }
-    return menuItems.filter((item) => ids.includes(item.id));
+    return menuItems.filter((item) => ids.includes(item.skuId));
 }

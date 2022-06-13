@@ -16,7 +16,6 @@ const ResultPage: NextPage = () => {
     );
 
     if (error) return <div>failed to load</div>;
-    console.log(data);
     return (
         <div className="page-container">
             <h1>Checkout Payment Result</h1>
@@ -25,6 +24,7 @@ const ResultPage: NextPage = () => {
             <p>
                 Already paid {data?.payment_intent?.amount_received / 100} EUR
             </p>
+            <p>Status: {data?.payment_intent?.status ?? "loading..."}</p>
         </div>
     );
 };

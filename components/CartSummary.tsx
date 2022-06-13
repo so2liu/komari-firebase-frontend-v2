@@ -11,8 +11,6 @@ function CartSummary() {
         redirectToCheckout,
     } = useShoppingCart();
 
-    const cart = useShoppingCart();
-    console.log(cart);
 
     const handleCheckout: FormEventHandler<HTMLFormElement> = useCallback(
         async (event) => {
@@ -32,7 +30,6 @@ function CartSummary() {
         [cartDetails, redirectToCheckout]
     );
 
-    console.log("CartSummary", cartDetails);
     return (
         <form onSubmit={handleCheckout}>
             <h2>Cart Summary</h2>

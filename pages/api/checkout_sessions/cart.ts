@@ -22,7 +22,7 @@ export default async function handler(
                 name: item.name,
                 amount: item.price * 100,
                 currency: "eur",
-                quantity: req.body[item.id].quantity,
+                quantity: req.body[item.skuId].quantity,
             })),
             success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
             cancel_url: `${req.headers.origin}/checkout`,
