@@ -20,6 +20,7 @@ function Sushi(props: PropsWithChildren<Props>) {
     const menu = props.menu.filter(
         (item) => item.selector.restaurantId === restaurant
     );
+    console.log(menu);
     return (
         <Cart>
             <NaiveNav />
@@ -59,7 +60,6 @@ export const getStaticProps: GetStaticProps<Props, Params> = async (
     const filteredMenu = menu.filter(
         (item) => item.selector.category === capitalizeStart(category as string)
     );
-    console.log({ category, context, menuLength: filteredMenu.length });
     return {
         props: {
             menu: filteredMenu,

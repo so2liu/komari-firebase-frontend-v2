@@ -19,7 +19,11 @@ const basicQuery = [
     where("selector.valid", "==", true),
 ];
 export const getMenu = async () => {
-    const q = query(dbRef);
+    const q = query(
+        dbRef,
+        where("selector.valid", "==", true),
+        where("parentSkuId", "==", null)
+    );
     const docs = await getDocs(q);
     const menu: MenuV2 = docs.docs.map((doc) => doc.data());
     return menu;
