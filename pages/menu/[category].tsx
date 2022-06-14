@@ -12,6 +12,7 @@ import { capitalizeStart } from "../../utils/stringUtils";
 function Sushi(props: any) {
     // const menu = useMenuV2(capitalizeStart(category as string));
     const menu = props.menu as MenuV2;
+    console.log("length", menu.length);
     return (
         <Cart>
             <div>
@@ -20,7 +21,7 @@ function Sushi(props: any) {
                 </section>
                 <section>
                     <h1>Sushi</h1>
-                    {menu.map((item) => (
+                    {menu?.map((item) => (
                         <MenuItemCard
                             key={item.skuId}
                             id={item.skuId}
@@ -45,7 +46,7 @@ export const getStaticProps: GetStaticProps<{}, Params> = async (context) => {
     const filteredMenu = menu.filter(
         (item) => item.selector.category === capitalizeStart(category as string)
     );
-    // console.log({ category, context, menuLength: filteredMenu.length });
+    console.log({ category, context, menuLength: filteredMenu.length });
     return {
         props: {
             menu: filteredMenu,
