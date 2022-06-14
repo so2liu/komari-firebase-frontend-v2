@@ -13,14 +13,15 @@ import { Masonry } from "@mui/lab";
 import { MENU_CATEGORY } from "../../constant/router";
 
 interface Props {
-    menu: MenuV2;
+    menu?: MenuV2;
 }
 function Sushi(props: PropsWithChildren<Props>) {
     const restaurant = "taumi";
-    const menu = props.menu.filter(
-        (item) => item.selector.restaurantId === restaurant
-    );
-    console.log(menu);
+    console.log("props", props.menu?.length);
+    const menu =
+        props.menu?.filter(
+            (item) => item.selector.restaurantId === restaurant
+        ) ?? [];
     return (
         <Cart>
             <NaiveNav />
