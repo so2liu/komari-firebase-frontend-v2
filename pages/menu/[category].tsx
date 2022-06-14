@@ -9,6 +9,8 @@ import NaiveNav from "../../components/NaiveNav";
 import { getMenu, useMenuV2 } from "../../data/firebase/firestore";
 import { MenuV2 } from "../../data/menuItem";
 import { capitalizeStart } from "../../utils/stringUtils";
+import { Masonry } from "@mui/lab";
+
 
 interface Props {
     menu: MenuV2;
@@ -27,16 +29,18 @@ function Sushi(props: PropsWithChildren<Props>) {
                 </section>
                 <section>
                     <h1>Sushi</h1>
-                    {menu?.map((item) => (
-                        <MenuItemCard
-                            key={item.skuId}
-                            id={item.skuId}
-                            name={item.name}
-                            price={item.price!}
-                            imgSrc={item.imgSrc ?? undefined}
-                            childIds={item.childSkuIds ?? undefined}
-                        />
-                    ))}
+                    <Masonry columns={4}>
+                        {menu?.map((item) => (
+                            <MenuItemCard
+                                key={item.skuId}
+                                id={item.skuId}
+                                name={item.name}
+                                price={item.price!}
+                                imgSrc={item.imgSrc ?? undefined}
+                                childIds={item.childSkuIds ?? undefined}
+                            />
+                        ))}
+                    </Masonry>
                 </section>
             </div>
         </Cart>

@@ -2,6 +2,7 @@ import { isNull } from "lodash";
 import { PropsWithChildren, useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
 import { useMenuItemV2 } from "../data/firebase/firestore";
+import BuyButtonGroup from "./BuyButtonGroup";
 
 interface Props {
     id: string;
@@ -10,27 +11,20 @@ function MenuItemChild(props: PropsWithChildren<Props>) {
     const { id } = props;
     const menuItem = useMenuItemV2(id);
     const { name = "", price = 0 } = menuItem?.data!;
-    const { addItem } = useShoppingCart();
-
-    const handleAddItem = useCallback(() => {
-        if (isNull(price)) {
-            return;
-        }
-        addItem({
-            id,
-            name: name,
-            price: price * 100,
-            currency: "EUR",
-        });
-    }, [addItem, id, name, price]);
 
     if (!menuItem) return null;
     return (
-        <div>
-            <h4>
+        <div
+            style={{
+                display: "flex",
+                justifyContent: "space-between",
+                padding: 4,
+            }}
+        >
+            <span style={{ marginRight: 16 }}>
                 {id} - {name}: {price} Euro
-            </h4>
-            {price && <button onClick={handleAddItem}>Add to cart</button>}
+            </span>
+            {price && <BuyButtonGroup id={id} />}
         </div>
     );
 }

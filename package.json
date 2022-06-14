@@ -7,6 +7,10 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/lab": "5.0.0-alpha.85",
+        "@mui/material": "^5.8.3",
         "@stripe/react-stripe-js": "^1.8.1",
         "@stripe/stripe-js": "^1.31.0",
         "file-saver": "^2.0.5",

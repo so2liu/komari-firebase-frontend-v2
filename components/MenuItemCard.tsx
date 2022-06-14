@@ -4,6 +4,7 @@ import { useImageUrl } from "../data/firebase/storage";
 import Image from "next/image";
 
 import MenuItemChild from "./MenuItemChild";
+import BuyButtonGroup from "./BuyButtonGroup";
 
 interface Props {
     id: string;
@@ -14,36 +15,41 @@ interface Props {
 }
 function MenuItemCard(props: PropsWithChildren<Props>) {
     const { id, name, price, imgSrc, childIds } = props;
-    const { addItem } = useShoppingCart();
     const imageUrl = useImageUrl(imgSrc);
 
-    const handleAddItem = useCallback(() => {
-        addItem({
-            id,
-            name: name,
-            price: price * 100,
-            currency: "EUR",
-        });
-    }, [addItem, id, name, price]);
-
     return (
-        <div>
-            <h4>
-                {name}: {price} Euro
-            </h4>
+        <div
+            style={{
+                border: "1px solid black",
+                borderRadius: "4px",
+                margin: 8,
+                padding: 8,
+                display: "inline-block",
+                width: 400,
+            }}
+        >
             {imageUrl && (
-                <div style={{ width: 200 }}>
+                <div
+                    style={{
+                        width: 200,
+                        height: 100,
+                        position: "relative",
+                    }}
+                >
                     <Image
                         src={imageUrl}
                         alt={name}
-                        width={800}
-                        height={450}
-                        layout="responsive"
-                        quality={65}
+                        layout="fill"
+                        objectFit="cover"
                     />
                 </div>
             )}
-            {price && <button onClick={handleAddItem}>Add to cart</button>}
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <span style={{ marginRight: 16 }}>
+                    {name}: {price && price + " Euro"}
+                </span>
+                {price && <BuyButtonGroup id={id} />}
+            </div>
             {childIds?.map((childId) => (
                 <Suspense key={childId} fallback={<div>Loading...</div>}>
                     <MenuItemChild id={childId} />
