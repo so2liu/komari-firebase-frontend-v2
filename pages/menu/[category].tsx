@@ -33,7 +33,8 @@ function Sushi(props: PropsWithChildren<Props>) {
                             id={item.skuId}
                             name={item.name}
                             price={item.price!}
-                            childIds={item.childSkuIds}
+                            imgSrc={item.imgSrc ?? undefined}
+                            childIds={item.childSkuIds ?? undefined}
                         />
                     ))}
                 </section>

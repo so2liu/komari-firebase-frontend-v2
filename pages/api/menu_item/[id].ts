@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getMenuItems } from "../../../data/menuItem";
+import { getMenuItems } from "../../../data/firebase/firestore";
 
 export default async function handler(
     req: NextApiRequest,

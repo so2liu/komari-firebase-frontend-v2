@@ -16,9 +16,18 @@ initializeFirebaseApp(serviceAccount);
 //     menuV2: menuFile,
 // });
 
-const outputFile = "orders.json";
+async function importDb(collection: string, inputFile: string) {
+    const data = await fs.readFile(inputFile);
+    await restore({
+        [collection]: JSON.parse(data.toString()),
+    });
+}
+
 async function backupDb(collection: string, outputFile: string) {
     const data = await backup(collection);
     await fs.writeFile(outputFile, JSON.stringify(data, null, 2));
 }
-backupDb("orders", outputFile);
+
+
+// importDb("menuV2", "/Users/liuyang/PrivateWorks/komari-firebase-frontend-v2/data/allMenu.json");
+// backupDb("orders", "output.json");

@@ -14,12 +14,16 @@ function transformItemV1ToV2(
         return [
             {
                 skuId,
+                childSkuIds: null,
+                parentSkuId: null,
                 name: skuId,
                 price: item.sub[0].price,
+
                 description: {
                     DE: item.DE ?? "",
-                    EN: item.EN ?? undefined,
+                    EN: item.EN ?? null,
                 },
+                imgSrc: item.imgSrc,
                 selector: {
                     restaurantId,
                     discount,
@@ -33,12 +37,15 @@ function transformItemV1ToV2(
     const result: MenuItemV2[] = [
         {
             skuId,
-            name: skuId,
             childSkuIds: item.sub.map((sub) => sub.id.toString()),
+            parentSkuId: null,
+            name: skuId,
+            price: null,
             description: {
                 DE: item.DE ?? "",
-                EN: item.EN ?? undefined,
+                EN: item.EN ?? null,
             },
+            imgSrc: item.imgSrc,
             selector: {
                 restaurantId,
                 discount,
@@ -49,11 +56,28 @@ function transformItemV1ToV2(
     ];
 
     const subRes: MenuItemV2[] = item.sub.map((subItem, index) => {
+        const namelist = subItem.subname?.split(" - ");
+        let name = "",
+            description = "";
+        if (!namelist) {
+            name = subItem.subname ?? String(subItem.id);
+        } else if (namelist.length === 1) {
+            name = namelist[0];
+        } else {
+            name = namelist[0];
+            description = namelist[1];
+        }
         return {
             skuId: String(subItem.id),
-            name: subItem.subname ?? String(subItem.id),
+            name,
             parentSkuId: skuId,
+            childSkuIds: null,
             price: subItem.price,
+            imgSrc: null,
+            description: {
+                DE: description,
+                EN: null,
+            },
             selector: {
                 hasParent: true,
                 restaurantId,

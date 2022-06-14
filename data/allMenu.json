@@ -1,0 +1,3772 @@
+[
+    {
+        "skuId": "SAKE TSUNAMI",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SAKE TSUNAMI",
+        "price": 14.9,
+        "description": {
+            "DE": "8 pcs salmon maki, 4 pcs salmon nigiri, 2 pcs salmon sashimi",
+            "EN": null
+        },
+        "imgSrc": "IMG-20200225-WA0020.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CRISPY ROCKET",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CRISPY ROCKET",
+        "price": 17.9,
+        "description": {
+            "DE": "8 pcs salmon crunchy roll, 4 pcs nigiri",
+            "EN": null
+        },
+        "imgSrc": "sm3.png",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BLAZING LOVE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "BLAZING LOVE",
+        "price": 17.5,
+        "description": { "DE": "8 pcs crispy tiger, 4 pcs nigiri", "EN": null },
+        "imgSrc": "IMG-20200225-WA0021.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MAKI MIX",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "MAKI MIX",
+        "price": 11.9,
+        "description": {
+            "DE": "8 pcs salmon maki, 8 pcs tuna maki, 8 pcs avocado maki",
+            "EN": null
+        },
+        "imgSrc": "maki-mix.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "ROBU INVASION",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "ROBU INVASION",
+        "price": 52,
+        "description": {
+            "DE": "8 pcs taumi special roll, 8 pcs alaska inside out roll, 8pcs sake maki, 8pcs kappa maki, 8 pcs tuna tempura Seetang salat, 6 pcs nigiri",
+            "EN": null
+        },
+        "imgSrc": "sm6.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BLACK FOREST (Vegi) ",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "BLACK FOREST (Vegi) ",
+        "price": 35,
+        "description": {
+            "DE": "8 pcs crunchy Vegi, 8pcs Vegi Inside-out, 8 pcs Maki Spargel, 2pcs Avocado Nigiri, Seetang Salat",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KAMASUTRA",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KAMASUTRA",
+        "price": 40,
+        "description": {
+            "DE": "8 psc taumi special roll, 8 pcs salmon crunchy roll, 8 pcs kappa maki, 4 pcs nigiri, Seetang Salat",
+            "EN": ""
+        },
+        "imgSrc": "IMG-20200225-WA0007.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Taumi Love Menu",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Taumi Love Menu",
+        "price": 45,
+        "description": {
+            "DE": "Wer noch nach einer passenden Feiern-Idee sucht, ist bei uns genau richtig! Zeig deinem Schatz wie du sie/ihn liebst mit Taumi Love Menu",
+            "EN": null
+        },
+        "imgSrc": "bd71bc1f-e4e5-4eb6-8cec-17b3c5960e25",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Taumi Freestyle",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Taumi Freestyle",
+        "price": 65,
+        "description": {
+            "DE": "Nach Ihren besonderen Wünschen und Kreativität unseres Sushimeister / According to your special wishes and the creativeness of our sushi masters",
+            "EN": null
+        },
+        "imgSrc": "64B79D2A-233E-44BE-A776-C36F732287D8.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MANGURO POWER",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "MANGURO POWER",
+        "price": 21,
+        "description": {
+            "DE": "Thunfischfilet in japanischem Gewürz kurz gegrillt, serviert mit gebraten Spargel, Wildblüten Salat, Guacamole, Salsa Roja und Sesamreis",
+            "EN": "Japanese spice seared tuna filet raw grilled, served with roasted asparagus, wildflower bloom salad, sesam rice, guacamole and salsa roja"
+        },
+        "imgSrc": "h-maguro-powder.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MANGO ENTE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "MANGO ENTE",
+        "price": 17.5,
+        "description": {
+            "DE": "Gegrillte Entenbrust mit Mango Créme verfeinert mit Kokosmilch, serviert mit Rucola Salat, Reis, Salsa Roja und gerösteten Cashew Kernen",
+            "EN": "Grilled duck breast with mango creme with coconut milk, served with rucola salad, rice and roasted cashew nuts"
+        },
+        "imgSrc": "h-mango-ente.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "HAPPY CHILD2",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "HAPPY CHILD2",
+        "price": 8.5,
+        "description": {
+            "DE": "Hausgemachte gebratene Hühnerspieße serviert mit Süßkartoffel Pommes und Japanischer Mayonnaise",
+            "EN": "Homemade fried chicken skewers with sweet potatoes fries and Japanese mayonnaise"
+        },
+        "imgSrc": "h-happy-child-2.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "PHO",
+        "childSkuIds": ["12a-H", "12b-H", "12c-H"],
+        "parentSkuId": null,
+        "name": "PHO",
+        "price": null,
+        "description": {
+            "DE": "Eine traditionelle Suppe der vietnamesischen Küche. Sie wird in einer Schüssel gereicht und enthält neben einer kräftigen klaren Brühe, Reisbandnudeln und wird traditionellerweise mit feinen Scheiben Rindfleisch, zartem Hähnchenfleisch oder würzigem Tofu, serviert mit Lauchringe, Koriander, Sojasprossen und Chili.",
+            "EN": "A traditional Vietnamese soup, severed in a large bowl consisting of a strong, clear broth, thin rice noodles and thinly sliced beef, tender chicken or tofu served with spring onions, coriander, soy sprouts and chili."
+        },
+        "imgSrc": "v-pho-bo.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12a-H",
+        "name": "Tofu",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 9.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12b-H",
+        "name": "Hähnchenfleisch",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 10.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12c-H",
+        "name": "Rindfleisch",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 12.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SWEET SALMON",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SWEET SALMON",
+        "price": 18,
+        "description": {
+            "DE": "Gegrilltes Lachsfilet mit grünem Spargel (oder Gemüse der Saison) gebraten in Soja Balsamico Dressing, serviert mit frischem Salat, Sesamreis, Guacamole und Salsa Roja",
+            "EN": "Grilled salmon filet with green asparagus (or seasonal vegatables) in soja balsamico dressing, served with fresh salad, sesame rice, guacamole and salsa roja"
+        },
+        "imgSrc": "h-sweet-salmon.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "DRY-AGED PREMIUM STEAK",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "DRY-AGED PREMIUM STEAK",
+        "price": 25.5,
+        "description": {
+            "DE": "250g gegrilltes Entrecôte, serviert mit Shiitake gebraten in Miso Soße, saisonalem Salat, Süßkartoffel-Pommes, Guacamole und frischen Tomaten",
+            "EN": "250g grilled Entrecôte, served with roasted Shiitake in Miso sauce, seasonal salad, sweet potato fries, guacamole and fresh tomatoes"
+        },
+        "imgSrc": "h-dry-aged-steak.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "GREEN GARDEN",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "GREEN GARDEN",
+        "price": 12.5,
+        "description": {
+            "DE": "Bestes Gemüse asiatischer Herkunft, gebraten und verfeinert mit Roja Balsamico Soße, garniert mit Rucola Salat abgeschmeckt mit Salsa Roja, serviert mit Sesamreis",
+            "EN": "The best combination of asian vegetables roasted with Roja Balsamico Sauce, garnished with Rucola Salat, served with Salsa Roja and sesame rice"
+        },
+        "imgSrc": "h-green-garden.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TAUMI ROYAL",
+        "childSkuIds": ["17H", "17G"],
+        "parentSkuId": null,
+        "name": "TAUMI ROYAL",
+        "price": null,
+        "description": {
+            "DE": "Gegrillte Großgarnelen oder Hähnchen gebraten in der TAUMI homemade Balsamico Soße mit Zuckererbsen, Zucchini und Paprika, serviert mit Sprossen-Wildkräuter Salat mit Salsa Roja, gerösteten Erdnüssen und Sesamreis. ",
+            "EN": "Tiger prawns deep in Taumi homemade Balsamico-Sauce with sugar peas, courgette und paprika, served with sprout-herb salad, salsa-roja, roasted peanuts and sesame rice. "
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "17H",
+        "name": "Hähnchen",
+        "parentSkuId": "TAUMI ROYAL",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "17G",
+        "name": "Großen Garnelen",
+        "parentSkuId": "TAUMI ROYAL",
+        "childSkuIds": null,
+        "price": 16,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CURRY",
+        "childSkuIds": ["15H", "15R", "15G", "15E"],
+        "parentSkuId": null,
+        "name": "CURRY",
+        "price": null,
+        "description": {
+            "DE": "TAUMI homemade Curry-Soße mit Hokaido Kurbis, Paprika, Zucchini, Karroten, serviert mit SprossenWildkräuter Salat und Salsa Roja, gerösteten Erdnüssen und Sesamreis. ",
+            "EN": "Taumi homemade Curry-Sauce with pumpkin, paprika, zuchhini und carrots served with sprout-herb salad, salsa roja, roasted peanut, sesame rice."
+        },
+        "imgSrc": "h-curry-garnelen.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "15H",
+        "name": "Hähnchen",
+        "parentSkuId": "CURRY",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "15R",
+        "name": "Gegrilltes Rinderfleisch",
+        "parentSkuId": "CURRY",
+        "childSkuIds": null,
+        "price": 15.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "15G",
+        "name": "Garnelen",
+        "parentSkuId": "CURRY",
+        "childSkuIds": null,
+        "price": 16,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "15E",
+        "name": "Ente",
+        "parentSkuId": "CURRY",
+        "childSkuIds": null,
+        "price": 17.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "UDON IN SCHWARZWALD",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "UDON IN SCHWARZWALD",
+        "price": 12.5,
+        "description": {
+            "DE": "Japanische Udon Nudeln gebraten mit Tofu, Paprika, Zucchini und Karroten in hausgemachter Roja-Balsamico Soße, aromatisiert mit Salsa Roja, Zwiebeln, Wildblütensalat und Sesam.",
+            "EN": "Japanese Udon noodles fried with tofu, paprika, zuchhini und carrots in homemade Roja-Balsamico Sauce, flavored with salsa roja, fresh sproutflower salad, onions and sesame"
+        },
+        "imgSrc": "h-udon.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SURF AND TURF",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SURF AND TURF",
+        "price": 22.5,
+        "description": {
+            "DE": "150g medium gegrilltes brasilianisches Rinderfilet und gegrillte Großgarnelen serviert mit gebratenen grünem Spargel, Zuckererbsen und Shiitake in Miso-Soße, verfeinert mit Wildkräuter Salat, gedämpften Süßkartoffeln, hausgemachtem Salsa Roja, Guacamole und Sesamreis",
+            "EN": "150g medium grilled Brazilian beef steak and grilled tiger prawns, served with green asparagus, sugar pea and shiitake cooked in Taumi homemade miso sauce, backed sweet potato, sprout-herb salad, salsa roja and sesame rice"
+        },
+        "imgSrc": "h-suf-tuf.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BEST OCEAN",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "BEST OCEAN",
+        "price": 18,
+        "description": {
+            "DE": "Frischer roher Lachs, Thunfisch, Kammmuscheln,gekochte Garnelen, Ebi Tempura auf Sushireis, verfeinert mit einem Wildblüten Rucola Salat,Guacamole, Salsa Roja, Ingwer, Wasabi, Sesam Dressing, Unagi Soße und Sesam.",
+            "EN": "Raw salmon, tuna, scallops, cooked shrimp, ebi tempura served with sushi rice, wildflower salad, guacamole, salsa roja, ginger, wasabi, sesame dressing, unagi sauce and sesame."
+        },
+        "imgSrc": "h-best-ocean.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "HAPPY CHILD 1",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "HAPPY CHILD 1",
+        "price": 8.5,
+        "description": {
+            "DE": "Tempura Garnelen ( 2 Stk. ) serviert mit Süßkartoffel Pommes, süß-sauer Soße und Japanischer Mayonnaise",
+            "EN": "Grilled shrimps served with sweet potatoes fries, Japanese mayonnaise und sweet sour sauce"
+        },
+        "imgSrc": "h-happy-child-1.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KUH AUF DER WEIDE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KUH AUF DER WEIDE",
+        "price": 22.5,
+        "description": {
+            "DE": "220g brasilianisches Rinderfilet medium gegrillt, serviert mit gebratenem Babymais, Karotten, Shangahi Pak Choi, Shitake in Miso Soße, Wildkräuter Salat, Süßkartoffelpommes, hausgemachtem Salsa Roja und Guacamole.",
+            "EN": "220g brazilian beef filet medium grilled, served with fried Babycorn, Karotte, Shanggai Pak Choi in miso sauce, homemade salsa roja, guacamole, sprout-herb salad and sweet fries"
+        },
+        "imgSrc": "h-kuh-auf-der-weide.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TOFU CURRY",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TOFU CURRY",
+        "price": 12.5,
+        "description": {
+            "DE": "Cremiges Kokos-Curry mit hausgemachten Tofu und Hokaido Kurbis, verfeinert mit Wildkräuter Salat und Salsa Roja auf Sesamreis und gerösteten Erdnüssen.",
+            "EN": "Creamy coconut curry with homemade  tofu, Hokaido pumpkin, served with sprout-herb salad, salsa roja, sesam rice and roasted peanut"
+        },
+        "imgSrc": "h-curry-tofu.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CREW LOVE TAPAS",
+        "childSkuIds": ["10a", "10b"],
+        "parentSkuId": null,
+        "name": "CREW LOVE TAPAS",
+        "price": null,
+        "description": {
+            "DE": "Verschiedene kleine Vorspeisen aus unseren Vorspeisen Menü: Edamame, Dumplings, Springrolls, Summerrolls",
+            "EN": "Different little appetizers from our starter menu: baby soy beans with sea salt, dumplings, springrolls, summerrolls"
+        },
+        "imgSrc": "v-tapas-3.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "10a",
+        "name": "2 Personen",
+        "parentSkuId": "CREW LOVE TAPAS",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "10b",
+        "name": "3 Personen",
+        "parentSkuId": "CREW LOVE TAPAS",
+        "childSkuIds": null,
+        "price": 18,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "PRAWNS IN SILK",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "PRAWNS IN SILK",
+        "price": 5,
+        "description": {
+            "DE": "Teigtaschen aus Reismehl gefüllt mit gehackten Garnelen und Gemüse",
+            "EN": "Dumplings made from rice flour filled with minced shrimp and vegetables"
+        },
+        "imgSrc": "v-prawn-in-silk.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "FUSION SALAT",
+        "childSkuIds": ["13H", "13L", "13M"],
+        "parentSkuId": null,
+        "name": "FUSION SALAT",
+        "price": null,
+        "description": {
+            "DE": "Wildkräutersalat mit Rucola, Cherrytomaten, frische Mango, Gurken, serviert mit Salsa-Roja, gerösteten Erdnüssem und Shiso Kresse. ",
+            "EN": "Mixed salat with Rucola, cherry tomatoes, fresh mango, cucumber, shiso cresse served with roasted peanut, Salsa-Roja and Shiso cresse. "
+        },
+        "imgSrc": "h-salat-jakob.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "13H",
+        "name": "Würziger gegrillter Hühnerbrust",
+        "parentSkuId": "FUSION SALAT",
+        "childSkuIds": null,
+        "price": 11.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "13L",
+        "name": "Gegrillten Lachs",
+        "parentSkuId": "FUSION SALAT",
+        "childSkuIds": null,
+        "price": 13,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "13M",
+        "name": "Gegrillten Kammmuscheln",
+        "parentSkuId": "FUSION SALAT",
+        "childSkuIds": null,
+        "price": 15.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SüßKARTOFFEL POMMES",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SüßKARTOFFEL POMMES",
+        "price": 5,
+        "description": {
+            "DE": "Süßkartoffel Pommes serviert mit Japanischer Mayonnaise",
+            "EN": "Sweet potato fries served with Japanese mayonnaise"
+        },
+        "imgSrc": "Pommes.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Almost nude",
+        "childSkuIds": ["2T", "2H", "2G"],
+        "parentSkuId": null,
+        "name": "Almost nude",
+        "price": null,
+        "description": {
+            "DE": "Vietnamesiche Sommerrollen gefüllt mit Salat, Gurken, Reisnudeln, gerösteten Erdnüssen, serviert mit leichter hausgemachter Limetten-Vinaigrette oder Sojasoße",
+            "EN": "Vietnamese summer rolls filled with salad, cucumber, rice noodles, roasted peanuts, served with a light homemade limevinaigrette or soya sauce"
+        },
+        "imgSrc": "v-sommer-rolle.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2T",
+        "name": "Tofu / Tofu",
+        "parentSkuId": "Almost nude",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2H",
+        "name": "Hühnerfleisch / Chicken",
+        "parentSkuId": "Almost nude",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2G",
+        "name": "Tempura Garnelen / Tempura prawns",
+        "parentSkuId": "Almost nude",
+        "childSkuIds": null,
+        "price": 6,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BUN (südvietnamesische Stil)",
+        "childSkuIds": ["14H", "14F", "14R"],
+        "parentSkuId": null,
+        "name": "BUN (südvietnamesische Stil)",
+        "price": null,
+        "description": {
+            "DE": "Reisnudeln serviert mit Wildkräutersalat, Koriander und Chili-Ingwer-LimettenVinaigrette verfeinert mit gerösteten Erdnüssen.",
+            "EN": "Warm rice-nudeln served with sprout-herb salad, coriander and chili – ginger – lime – vinaigrette served with roasted peanut and sesame. "
+        },
+        "imgSrc": "h-bun-all.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "14H",
+        "name": "Gegrillter Hühnerbrust",
+        "parentSkuId": "BUN (südvietnamesische Stil)",
+        "childSkuIds": null,
+        "price": 12.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "14F",
+        "name": "Vietnamesischer Frühlingsrolllen",
+        "parentSkuId": "BUN (südvietnamesische Stil)",
+        "childSkuIds": null,
+        "price": 11.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "14R",
+        "name": "Gegrilltes Rinderfleisch",
+        "parentSkuId": "BUN (südvietnamesische Stil)",
+        "childSkuIds": null,
+        "price": 14.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SEAWEED SALAT",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SEAWEED SALAT",
+        "price": 7.5,
+        "description": {
+            "DE": "Seetang Salat mit Gurke, serviert mit Sesamdressing und Sesam",
+            "EN": "Seaweed salad with cucumber, served with sesame dressing and sesame"
+        },
+        "imgSrc": "seaweed-salad.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "PHO",
+        "childSkuIds": ["12a-V", "12b-V", "12c-V"],
+        "parentSkuId": null,
+        "name": "PHO",
+        "price": null,
+        "description": {
+            "DE": "Eine traditionelle Suppe der vietnamesischen Küche. Sie wird in einer Schüssel gereicht und enthält neben einer kräftigen klaren Brühe, Reisbandnudeln und wird traditionellerweise mit feinen Scheiben Rindfleisch, zartem Hähnchenfleisch oder würzigem Tofu, serviert mit Lauchringe, Koriander, Sojasprossen und Chili.",
+            "EN": "A traditional Vietnamese soup, severed in a large bowl consisting of a strong, clear broth, thin rice noodles and thinly sliced beef, tender chicken or tofu served with spring onions, coriander, soy sprouts and chili."
+        },
+        "imgSrc": "v-pho-ga.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12a-V",
+        "name": "Tofu",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 6.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12b-V",
+        "name": "Hähnchenfleisch",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 6.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "12c-V",
+        "name": "Rindfleisch",
+        "parentSkuId": "PHO",
+        "childSkuIds": null,
+        "price": 7.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SMOKY SATE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SMOKY SATE",
+        "price": 6,
+        "description": {
+            "DE": "Gebratene Hühnerspieße mit Erdnuss Soße",
+            "EN": "Fried chicken skewers with peanut sauce"
+        },
+        "imgSrc": "v-sate.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Springrolls",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Springrolls",
+        "price": 6,
+        "description": {
+            "DE": "Vietnamesische knusprige Frühlingsrollen gefüllt mit Garnelen und Gemüse, serviert mit Süss-Sauer-Dip",
+            "EN": "Vietnamese crispy springrolls filled with prawns and vegetables, served with a lime-chili dip"
+        },
+        "imgSrc": "v-fruehling-rolle.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "GOLDEN MANGO SALAT",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "GOLDEN MANGO SALAT",
+        "price": 8.5,
+        "description": {
+            "DE": "Gegrillte Garnelen, frische Mango, Gurke und Salat gemischt in Süß-Sauer Soße, serviert mit Cherrytomaten.",
+            "EN": "Grilled Shrimp, fresh mango, cucumber, Salat mixed in sweet-sour sauce, served with cherry tomato"
+        },
+        "imgSrc": "v-mango-salat.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Catch the fish",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Catch the fish",
+        "price": 7.5,
+        "description": {
+            "DE": "Suppe mit Lachs, Großgarnelen, Grüne Muscheln, Cherry Tomaten, Tom-yum Paste, Champignons Lauchzwiebeln und Dill",
+            "EN": "Soup with salmon, tiger prawns, green mussels, cherry tomatoes, Tom-yum paste, mushrooms, spring onions and dill"
+        },
+        "imgSrc": "v-catch-the-fish.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "EDAMAME",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "EDAMAME",
+        "price": 5.5,
+        "description": {
+            "DE": "Baby grüne Sojabohnen serviert mit Meersalz",
+            "EN": "Baby green soy beans served with sea salt"
+        },
+        "imgSrc": "v-edamame.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TARTARE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TARTARE",
+        "price": 7.5,
+        "description": {
+            "DE": "Thunfisch Tartare mit Avocado, Lauchzwiebeln mit scharfer Sauce und Seetangsalat serviert mit vietnamesischem Banh Da",
+            "EN": "Tuna tartare with avocado, spring onions with spicy sauce and seaweed salad, served with Vietnamese Banh Da"
+        },
+        "imgSrc": "v-tatar2.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": [
+            "U21",
+            "U22",
+            "U23",
+            "U24",
+            "U25",
+            "U26",
+            "U7",
+            "U8",
+            "U29"
+        ],
+        "parentSkuId": null,
+        "name": "INSIDE OUT ROLLS (8 stk)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "7FF55BA3-3CC8-49AA-BB0D-76F5D365BFC4.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U21",
+        "name": "ALASKA",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 9.9,
+        "imgSrc": null,
+        "description": { "DE": "lachs, avocado, tobiko (kaviar)", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U22",
+        "name": "BLUEFIN MAGURO",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 10.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "Bluefin Thunfisch, Avocado und Tobiko verfeinert mit Unagi Soße und japanischer Mayonnaise",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U23",
+        "name": "EBI TEMPURA",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 10.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "gebackene garnelen, avocado, sesam",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U24",
+        "name": "CALIFORNIA",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 9.9,
+        "imgSrc": null,
+        "description": { "DE": "surimi, avocado, tobiko (kaviar)", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U25",
+        "name": "ANAGO",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 10.5,
+        "imgSrc": null,
+        "description": { "DE": "salzwasseraal, gurke, sesam", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U26",
+        "name": "HOTATEGAI",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 10.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "jakobsmuscheln, avocado, tobiko (kaviar)",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U7",
+        "name": "SALMONSKIN ",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 9.2,
+        "imgSrc": null,
+        "description": {
+            "DE": "gegrillte lachshaut, gurke, sesam",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U8",
+        "name": "VEGGIE KAPPA",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 9.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "tempura-avocado und gurke, ummantelt mit mango und reispapier",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U29",
+        "name": "TAUMIs TOFU",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk)",
+        "childSkuIds": null,
+        "price": 9.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "Hausgemachter Tempura Tofu und Avocado ummantelt mit Mango, Sesam und Unagi Soße ",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MAKI (8 stk)",
+        "childSkuIds": [
+            "M11",
+            "M14",
+            "M12",
+            "M13",
+            "M15",
+            "M17",
+            "M16",
+            "M18",
+            "M19",
+            "M20",
+            "M21"
+        ],
+        "parentSkuId": null,
+        "name": "MAKI (8 stk)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "maki.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M11",
+        "name": "Avocado",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Avocado", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M14",
+        "name": "Sake",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 5.2,
+        "imgSrc": null,
+        "description": { "DE": "Lachs", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M12",
+        "name": "Kappa",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.2,
+        "imgSrc": null,
+        "description": { "DE": "Gurke", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M13",
+        "name": "Spargel",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Spargel", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M15",
+        "name": "Bluefin Tekka",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Bluefin Thunfisch", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M17",
+        "name": "Anago",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 5.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "Gerillter Salzwasseraal/Salty sea eel grilled",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M16",
+        "name": "Ebi",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Gekochte Garnelen", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M18",
+        "name": "Tempura Garnelen",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 5.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "Frittierte Garnelen / Fried prawns",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M19",
+        "name": "Salmon Skin",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.3,
+        "imgSrc": null,
+        "description": {
+            "DE": "Frittierte Lachshaut / Fried salmon skin",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M20",
+        "name": "TAUMIs TOFU ",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M21",
+        "name": "KANI",
+        "parentSkuId": "MAKI (8 stk)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Surimi ", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": ["H41", "H42", "H43", "H44", "H45", "H46"],
+        "parentSkuId": null,
+        "name": "Taumi Special homemade roll (8 stk)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "IMG-20200225-WA0013.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H41",
+        "name": "CRISPY TIGER",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "garnelen im tempuramantel, mango, avocado, bedeckt mit flambierten lachs / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H42",
+        "name": "SIZZLING TEMPTATION",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "avocado tempura, gurke im lachsmantel / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H43",
+        "name": "MAMA EBI",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "gegrillte lachshaut, mango, avocado umwickelt mit großgarnelen und reispapier/philadelphia(nach wunsch)",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H44",
+        "name": "BLAZING TUNA",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 14.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "surimi, mango ummantelt mit feuerthunfisch / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H45",
+        "name": "FUTO MAKI",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 11.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "5stk gefüllt mit lachs, thunfisch, mango, avocado, gurken",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H46",
+        "name": "SPIDER ROLL",
+        "parentSkuId": "Taumi Special homemade roll (8 stk)",
+        "childSkuIds": null,
+        "price": 15.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "6stk inside out, softshell crab, avocado, frühlingszwiebeln, gurke, chili-mayo soße",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Sashimi",
+        "childSkuIds": ["S31", "S32", "S33", "S34"],
+        "parentSkuId": null,
+        "name": "Sashimi",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "sashimi.jpg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "S31",
+        "name": "SALMON",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 11.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "6 stk lachs auf seetangsalat, avocado, daikon salat",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "S32",
+        "name": "BLUEFIN TUNA",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 15.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "6 stk Bluefin Thunfisch auf seetangsalat, avocado, daikon salat",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "S33",
+        "name": "ABURI SASHIMI",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 15.2,
+        "imgSrc": null,
+        "description": {
+            "DE": "3 stk flambierter lachs und 3 stk thunfisch, auf seetangsalat, avocado",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "S34",
+        "name": "BLUEFIN TORO",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 17.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "6 Scheiben Toro Bluefin Thunfisch auf Seetangsalat und Avocado / 6 slices of toro salmon on seaweed salad and avocado",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "NIGIRI (2 stk)",
+        "childSkuIds": [
+            "N1",
+            "N2",
+            "N3",
+            "N4",
+            "N5",
+            "N6",
+            "N7",
+            "N8",
+            "N9",
+            "N10",
+            "N11"
+        ],
+        "parentSkuId": null,
+        "name": "NIGIRI (2 stk)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "nigiri.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N1",
+        "name": "Avocado",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 4.5,
+        "imgSrc": null,
+        "description": { "DE": "Avocado", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N2",
+        "name": "Sake",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Lachs", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N3",
+        "name": "Maguro",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Thunfisch / Tuna", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N4",
+        "name": "Ebi",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "Eingelegte Garnelen / Pickled prauns",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N5",
+        "name": "Kani",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 4,
+        "imgSrc": null,
+        "description": { "DE": "Surimi", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N6",
+        "name": "Anago",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 5.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "Gegrillter Salzwasseraal / Grilled salty sea eel",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N7",
+        "name": "Ikura",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": { "DE": "Lachskaviar / Salmon row", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N8",
+        "name": "Aburi Gai",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "Flambierte Jakobsmuscheln / Scallops flambeed",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N9",
+        "name": "Rinderfilet",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "Rinderfilet flambiert / Beef filet flambeed",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N10",
+        "name": "BLUEFIN TUNA TORO",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 7.9,
+        "imgSrc": null,
+        "description": { "DE": "Bluefin Thunfischbauch", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N11",
+        "name": "TAUMIs TOFU",
+        "parentSkuId": "NIGIRI (2 stk)",
+        "childSkuIds": null,
+        "price": 4.5,
+        "imgSrc": null,
+        "description": { "DE": "Hausgemacht Tofu ", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Tempura (8 stk)",
+        "childSkuIds": ["T51", "T52", "T53", "T54", "T55", "T56"],
+        "parentSkuId": null,
+        "name": "Tempura (8 stk)",
+        "price": null,
+        "description": {
+            "DE": "die rundum frittierte sushi rolle wird mit guacamole und homemade dressing serviert",
+            "EN": "crunchy rolls are served with guacamoleand homemade dressing"
+        },
+        "imgSrc": "3FE1FE86-D4B2-4141-8CF9-3D1A98B29C68.jpeg",
+        "selector": {
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T51",
+        "name": "Crunchy",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 12.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "avocado, gurke, spargel m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T52",
+        "name": "BluefinTunacado",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 15.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "thunfisch, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T53",
+        "name": "Aburi Salmon",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "lachs, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T54",
+        "name": "Hotagai Tempura",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 14.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "jakobsmuscheln, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T55",
+        "name": "Ebi crunchy",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "garnele, gurken m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T56",
+        "name": "Crunchy Tofu",
+        "parentSkuId": "Tempura (8 stk)",
+        "childSkuIds": null,
+        "price": 13.9,
+        "imgSrc": null,
+        "description": {
+            "DE": "Avocado, Gurke, hausgemachter Tofu, Seetangsalat, Philadelphia Frischkäse und Nori",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "taumi",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Hefeweizen",
+        "childSkuIds": ["0.5L", "Alkoholfrei 0.5L"],
+        "parentSkuId": null,
+        "name": "Hefeweizen",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "drinks.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Bier",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "0.5L",
+        "name": "0.5L",
+        "parentSkuId": "Hefeweizen",
+        "childSkuIds": null,
+        "price": 3.8,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Bier",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Alkoholfrei 0.5L",
+        "name": "Alkoholfrei 0.5L",
+        "parentSkuId": "Hefeweizen",
+        "childSkuIds": null,
+        "price": 3.8,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Bier",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Tiger Beer",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Tiger Beer",
+        "price": 2,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "drinks.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Bier",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TEMPURA",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TEMPURA",
+        "price": 9.9,
+        "description": {
+            "DE": "6stk tempura roll mit thunfisch, gurke, 8stk avocado maki",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "VEGIE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "VEGIE",
+        "price": 8.9,
+        "description": {
+            "DE": "gebratene verschiedene seasonal gemüse, butter-soja sauce, salat und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "ENTE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "ENTE",
+        "price": 10.9,
+        "description": {
+            "DE": "knusprige enteburst mit gebratenen karotten, zucchini, paprika, brocolli in hoisin sauce, salat und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "RINDER",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "RINDER",
+        "price": 10.9,
+        "description": {
+            "DE": "gebratene rindfleisch, soja sauce mit karotten, zucchini, paprika, brocolli, salat und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "VEGIE SPECIAL",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "VEGIE SPECIAL",
+        "price": 8.5,
+        "description": {
+            "DE": "6stk tempura roll mit spargel, gurke, avocado, mango, 8 stk tamago maki",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "INSIDE OUT",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "INSIDE OUT",
+        "price": 8.9,
+        "description": {
+            "DE": "8stk inside out roll mit ebi tempura, avocado, 8 stk gurke maki",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KOMARI SET",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KOMARI SET",
+        "price": 13.9,
+        "description": {
+            "DE": "4stk inside out thunfisch, avocado, 6 stk tempura roll mit ebi, gurke, 4 stk avocado maki, 2 stk tamago nigiri",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "LACHS FUSION",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "LACHS FUSION",
+        "price": 10.9,
+        "description": {
+            "DE": "gebratene lachs, verschiedene gemüse mit curry sauce, salat, reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CHICKEN WOK",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CHICKEN WOK",
+        "price": 9.9,
+        "description": {
+            "DE": "gebratene hühnchenbrust, zucchini ,karotten , paprika, brocolli, gaipad sauce, salat und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": true,
+            "category": "Angebote",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SOMMERROLLE",
+        "childSkuIds": ["2T", "2H", "2G"],
+        "parentSkuId": null,
+        "name": "SOMMERROLLE",
+        "price": null,
+        "description": {
+            "DE": "Vietnamesiche Sommerrollen gefüllt mit Salat, Gurken, Reisnudeln, gerösteten Erdnüssen, serviert mit leichter hausgemachter Limetten-Vinaigrette oder Sojasoße",
+            "EN": "Vietnamese summer rolls filled with salad, cucumber, rice noodles, roasted peanuts, served with a light homemade limevinaigrette or soya sauce"
+        },
+        "imgSrc": "sommerroll.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2T",
+        "name": "Tofu",
+        "parentSkuId": "SOMMERROLLE",
+        "childSkuIds": null,
+        "price": 5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2H",
+        "name": "Hühnerfleisch",
+        "parentSkuId": "SOMMERROLLE",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "2G",
+        "name": "Tempura Garnelen",
+        "parentSkuId": "SOMMERROLLE",
+        "childSkuIds": null,
+        "price": 6,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "FUSION KOMARI SALAD",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "FUSION KOMARI SALAD",
+        "price": 13,
+        "description": {
+            "DE": "salat, mango, gurke, paprika, mayonnaise, kurz gegrilleten lachs",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "PRAWNS IN SILK",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "PRAWNS IN SILK",
+        "price": 5,
+        "description": {
+            "DE": "Teigtaschen aus Reismehl gefüllt mit gehackten Garnelen und Gemüse",
+            "EN": "Dumplings made from rice flour filled with minced shrimp and vegetables"
+        },
+        "imgSrc": "v-prawn-in-silk.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "GYOZA",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "GYOZA",
+        "price": 5,
+        "description": {
+            "DE": "Frittiertes hähnchen gemüse teigtaschen, serviert ponzu soße",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SPRINGSROLLE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SPRINGSROLLE",
+        "price": 6,
+        "description": {
+            "DE": "Vietnamesische knusprige Frühlingsrollen gefüllt mit Garnelen und Gemüse, serviert mit Süss-Sauer-Dip",
+            "EN": "Vietnamese crispy springrolls filled with prawns and vegetables, served with a lime-chili dip"
+        },
+        "imgSrc": "v-fruehling-rolle.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "FRIED MANDU - VEGGIE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "FRIED MANDU - VEGGIE",
+        "price": 5,
+        "description": {
+            "DE": "Frittiertes gemüsetaschen, chili-soße",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CATCH THE FISH",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CATCH THE FISH",
+        "price": 8,
+        "description": {
+            "DE": "suppe mit lachs, großgarnelen, jakobmuscheln, tomaten, champignons, lauchzwiebeln",
+            "EN": null
+        },
+        "imgSrc": "v-catch-the-fish.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "EDAMAME",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "EDAMAME",
+        "price": 5,
+        "description": {
+            "DE": "Baby grüne Sojabohnen serviert mit Meersalz",
+            "EN": "Baby green soy beans served with sea salt"
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MISO SUPPE",
+        "childSkuIds": ["24K", "24G"],
+        "parentSkuId": null,
+        "name": "MISO SUPPE",
+        "price": null,
+        "description": {
+            "DE": "weiße misopaste, fischsud, tofu, seealgen, frühlingszwiebel",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "24K",
+        "name": "klein",
+        "parentSkuId": "MISO SUPPE",
+        "childSkuIds": null,
+        "price": 3.5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "24G",
+        "name": "groß",
+        "parentSkuId": "MISO SUPPE",
+        "childSkuIds": null,
+        "price": 5,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SPICY SOY EDAMAME",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SPICY SOY EDAMAME",
+        "price": 6,
+        "description": {
+            "DE": "Japanische sojabohnen, chili-soße",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SEAWEED SALAT",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SEAWEED SALAT",
+        "price": 5,
+        "description": {
+            "DE": "Seetang Salat mit Gurke, serviert mit Sesamdressing und Sesam",
+            "EN": "Seaweed salad with cucumber, served with sesame dressing and sesame"
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CREW LOVE TAPAS",
+        "childSkuIds": ["10a", "10b"],
+        "parentSkuId": null,
+        "name": "CREW LOVE TAPAS",
+        "price": null,
+        "description": {
+            "DE": "Verschiedene kleine Vorspeisen aus unseren Vorspeisen Menü: Edamame, Dumplings, Springrolls, Summerrolls",
+            "EN": "Different little appetizers from our starter menu: baby soy beans with sea salt, dumplings, springrolls, summerrolls"
+        },
+        "imgSrc": "v-tapas-3.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "10a",
+        "name": "2 Personen",
+        "parentSkuId": "CREW LOVE TAPAS",
+        "childSkuIds": null,
+        "price": 14,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "10b",
+        "name": "3 Personen",
+        "parentSkuId": "CREW LOVE TAPAS",
+        "childSkuIds": null,
+        "price": 19,
+        "imgSrc": null,
+        "description": { "DE": "", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TARTARE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TARTARE",
+        "price": 8,
+        "description": {
+            "DE": "Thunfisch Tartare mit Avocado, Lauchzwiebeln mit scharfer Sauce und Seetangsalat serviert mit vietnamesischem Banh Da",
+            "EN": "Tuna tartare with avocado, spring onions with spicy sauce and seaweed salad, served with Vietnamese Banh Da"
+        },
+        "imgSrc": "tartar.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Vorspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BLAZING LOVE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "BLAZING LOVE",
+        "price": 17,
+        "description": { "DE": "8 pcs crispy tiger, 4 pcs nigiri", "EN": null },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "ROBU INVASION",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "ROBU INVASION",
+        "price": 48,
+        "description": {
+            "DE": "8 pcs taumi special roll, 8 pcs alaska inside out roll, 8pcs sake maki, 8pcs kappa maki, 8 pcs tuna tempura Seetang salat, 6 pcs nigiri",
+            "EN": null
+        },
+        "imgSrc": "sm6.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CRISPY ROCKET",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CRISPY ROCKET",
+        "price": 18,
+        "description": {
+            "DE": "8 pcs salmon crunchy roll, 4 pcs nigiri",
+            "EN": null
+        },
+        "imgSrc": "sm3.png",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "BLACK FOREST (Vegi) ",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "BLACK FOREST (Vegi) ",
+        "price": 33,
+        "description": {
+            "DE": "8 pcs crunchy Vegi, 8pcs Vegi Inside-out, 8 pcs Maki Spargel, 2pcs Avocado Nigiri, Seetang Salat",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SAKE TSUNAMI",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SAKE TSUNAMI",
+        "price": 15,
+        "description": {
+            "DE": "8 pcs salmon maki, 4 pcs salmon nigiri, 2 pcs salmon sashimi",
+            "EN": null
+        },
+        "imgSrc": "IMG-20200225-WA0020.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MAKI MIX",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "MAKI MIX",
+        "price": 11,
+        "description": {
+            "DE": "8 pcs salmon maki, 8 pcs tuna maki, 8 pcs avocado maki",
+            "EN": null
+        },
+        "imgSrc": "maki-mix.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KAMASUTRA",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KAMASUTRA",
+        "price": 39,
+        "description": {
+            "DE": "8 psc taumi special roll, 8 pcs salmon crunchy roll, 8 pcs kappa maki, 4 pcs nigiri, Seetang Salat",
+            "EN": "IMG-20200225-WA0029.jpg"
+        },
+        "imgSrc": "IMG-20200225-WA0029.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Free Style Ab 60 Euro",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "Free Style Ab 60 Euro",
+        "price": 60,
+        "description": {
+            "DE": "Nach Ihren besondere Wuenschen und Kreativitaet unseres Sushimeister. Bitte schreiben Sie den genaue Betrag in Extra Wunsch wenn Sie Ihre Kontaktinformation geben.",
+            "EN": "According to your special wishes and the creativeness of our sushi masters. Please write the exact amount as your wish, when you give your contact information."
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushiset",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Tempura (8 stk.)",
+        "childSkuIds": ["T1", "T2", "T3", "T4", "T5"],
+        "parentSkuId": null,
+        "name": "Tempura (8 stk.)",
+        "price": null,
+        "description": {
+            "DE": "die rundum frittierte sushi rolle wird mit guacamole und homemade dressing serviert",
+            "EN": "crunchy rolls are served with guacamoleand homemade dressing"
+        },
+        "imgSrc": "tempura.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T1",
+        "name": "Crunchy",
+        "parentSkuId": "Tempura (8 stk.)",
+        "childSkuIds": null,
+        "price": 12,
+        "imgSrc": null,
+        "description": {
+            "DE": "avocado, gurke, spargel m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T2",
+        "name": "Tunacado",
+        "parentSkuId": "Tempura (8 stk.)",
+        "childSkuIds": null,
+        "price": 14.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "thunfisch, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T3",
+        "name": "Aburi Salmon",
+        "parentSkuId": "Tempura (8 stk.)",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "lachs, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T4",
+        "name": "Hotate-gai Tempura",
+        "parentSkuId": "Tempura (8 stk.)",
+        "childSkuIds": null,
+        "price": 14.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "jakobsmuscheln, avocado m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "T5",
+        "name": "Ebi crunchy",
+        "parentSkuId": "Tempura (8 stk.)",
+        "childSkuIds": null,
+        "price": 14,
+        "imgSrc": null,
+        "description": {
+            "DE": "garnele, gurken m/o philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Sashimi",
+        "childSkuIds": ["55", "56", "57"],
+        "parentSkuId": null,
+        "name": "Sashimi",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "sashimi.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "55",
+        "name": "SALMON",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 13,
+        "imgSrc": null,
+        "description": {
+            "DE": "6 stk lachs auf seetangsalat, avocado, daikon salat",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "56",
+        "name": "TUNA",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 15,
+        "imgSrc": null,
+        "description": {
+            "DE": "6 stk thunfisch auf seetangsalat, avocado, daikon salat",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "57",
+        "name": "ABURI",
+        "parentSkuId": "Sashimi",
+        "childSkuIds": null,
+        "price": 16,
+        "imgSrc": null,
+        "description": {
+            "DE": "3 stk flambierter lachs und 3 stk thunfisch, auf seetangsalat, avocado",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": ["U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8"],
+        "parentSkuId": null,
+        "name": "INSIDE OUT ROLLS (8 stk.)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "insideout.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U1",
+        "name": "Alaska",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 10,
+        "imgSrc": null,
+        "description": { "DE": "lachs, avocado, tobiko (kaviar)", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U2",
+        "name": "Maguro",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 11,
+        "imgSrc": null,
+        "description": {
+            "DE": "thunfisch, avocado, tobiko (kaviar)",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U3",
+        "name": "Ebi Tempura",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 11,
+        "imgSrc": null,
+        "description": {
+            "DE": "gebackene garnelen, avocado, sesam",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U4",
+        "name": "California",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 9,
+        "imgSrc": null,
+        "description": { "DE": "surimi, avocado, tobiko (kaviar)", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U5",
+        "name": "Unagi",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 12,
+        "imgSrc": null,
+        "description": { "DE": "salzwasseraal, gurke, sesam", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U6",
+        "name": "Hotategal",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 12,
+        "imgSrc": null,
+        "description": {
+            "DE": "jakobsmuscheln, avocado, tobiko (kaviar)",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U7",
+        "name": "Salmonskin",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 10,
+        "imgSrc": null,
+        "description": {
+            "DE": "gegrillte lachshaut, gurke, sesam",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "U8",
+        "name": "Vegie",
+        "parentSkuId": "INSIDE OUT ROLLS (8 stk.)",
+        "childSkuIds": null,
+        "price": 9,
+        "imgSrc": null,
+        "description": {
+            "DE": "tempura-avocado und gurke, ummantelt mit mango und reispapier",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "MAKI (8 stk.)",
+        "childSkuIds": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9"],
+        "parentSkuId": null,
+        "name": "MAKI (8 stk.)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "maki.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M1",
+        "name": "Avocado",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 4.5,
+        "imgSrc": null,
+        "description": { "DE": "Avocado", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M2",
+        "name": "Sake",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 5.2,
+        "imgSrc": null,
+        "description": { "DE": "Lachs", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M3",
+        "name": "Kappa",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 4.5,
+        "imgSrc": null,
+        "description": { "DE": "Gurke", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M4",
+        "name": "Spargel",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Spargel", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M5",
+        "name": "Tekka",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Thunfisch", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M6",
+        "name": "Unagi",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": { "DE": "Gegrillter Aal", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M7",
+        "name": "Ebi",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Gekochte Garnelen", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M8",
+        "name": "Tempura Garnelen",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": { "DE": "Gebackene Garnelen", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "M9",
+        "name": "Salmon Skin",
+        "parentSkuId": "MAKI (8 stk.)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Frittierte Lachshaut", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": ["H50", "H51", "H52", "H53", "H54", "H55"],
+        "parentSkuId": null,
+        "name": "Special homemade roll (8 stk.)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "IMG-20200225-WA0013.jpg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H50",
+        "name": "CRISPY TIGER",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 14,
+        "imgSrc": null,
+        "description": {
+            "DE": "garnelen im tempuramantel, mango, avocado, bedeckt mit flambierten lachs / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H51",
+        "name": "SIZZLING TEMPTATION",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "avocado tempura, gurke im lachsmantel / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H52",
+        "name": "MAMA EBI",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 13.5,
+        "imgSrc": null,
+        "description": {
+            "DE": "gegrillte lachshaut, mango, avocado umwickelt mit großgarnelen und reispapier / philadelphia(nach wunsch)",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H53",
+        "name": "BLAZING TUNA",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 15,
+        "imgSrc": null,
+        "description": {
+            "DE": "surimi, mango ummantelt mit feuerthunfisch / philadelphia-frischkäse nach wunsch",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H54",
+        "name": "FUTO MAKI",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 11,
+        "imgSrc": null,
+        "description": {
+            "DE": "5stk gefüllt mit lachs, thunfisch, mango, avocado, gurken",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "H55",
+        "name": "SPIDER ROLL",
+        "parentSkuId": "Special homemade roll (8 stk.)",
+        "childSkuIds": null,
+        "price": 15,
+        "imgSrc": null,
+        "description": {
+            "DE": "6stk inside out, softshell crab, avocado, frühlingszwiebeln, gurke, chili-mayo soße",
+            "EN": null
+        },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "NIGIRI (2 stk.)",
+        "childSkuIds": ["N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8"],
+        "parentSkuId": null,
+        "name": "NIGIRI (2 stk.)",
+        "price": null,
+        "description": { "DE": "", "EN": null },
+        "imgSrc": "nigiri.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N1",
+        "name": "Avocado",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 4.5,
+        "imgSrc": null,
+        "description": { "DE": "Avocado", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N2",
+        "name": "Sake",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 5.2,
+        "imgSrc": null,
+        "description": { "DE": "Lachs", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N3",
+        "name": "Kappa",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 6.5,
+        "imgSrc": null,
+        "description": { "DE": "Gurke", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N4",
+        "name": "Ebi",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 5.5,
+        "imgSrc": null,
+        "description": { "DE": "Gekochte Garnelen", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N5",
+        "name": "Kani",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 4.9,
+        "imgSrc": null,
+        "description": { "DE": "Surimi", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N6",
+        "name": "Unagi",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 7,
+        "imgSrc": null,
+        "description": { "DE": "Gegrillter Aal", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N7",
+        "name": "Ikura",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 7,
+        "imgSrc": null,
+        "description": { "DE": "Lachskaviar", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "N8",
+        "name": "Aburi hotate-gai",
+        "parentSkuId": "NIGIRI (2 stk.)",
+        "childSkuIds": null,
+        "price": 7,
+        "imgSrc": null,
+        "description": { "DE": "Flambierte Jakobsmuscheln", "EN": null },
+        "selector": {
+            "hasParent": true,
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Sushi",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CHICKEN UDON",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CHICKEN UDON",
+        "price": 14,
+        "description": {
+            "DE": "Gebratene udon nudeln, hähnchenbrust, braune champignons, butter- soja sauce, bonito flocken",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "RINDER IM WOK scharf",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "RINDER IM WOK scharf",
+        "price": 17,
+        "description": {
+            "DE": "rindfleisch, curry-sauce, verschiedene saisonal gemüse",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": " MANGURO POWER",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": " MANGURO POWER",
+        "price": 18,
+        "description": {
+            "DE": "Thunfischfilet in japanischem Gewürz kurz gegrillt, serviert mit gebraten Spargel, Wildblüten Salat, Guacamole, Salsa Roja und Sesamreis",
+            "EN": "Japanese spice seared tuna filet raw grilled, served with roasted asparagus, wildflower bloom salad, sesam rice, guacamole and salsa roja"
+        },
+        "imgSrc": "h-maguro-powder.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TOFU CURRY",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TOFU CURRY",
+        "price": 11,
+        "description": {
+            "DE": "Cremiges Kokos-Curry mit Tofu, Kürbis, saisonalem Gemüse, servert mit Salat sesamdressing und Reis",
+            "EN": null
+        },
+        "imgSrc": "h-curry-tofu.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "TERIYAKI ENTE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "TERIYAKI ENTE",
+        "price": 16,
+        "description": {
+            "DE": "Gegrillte weibliche entenbrust, orangen-teriyaki, gegrillte braune champions, serviert mit salat sesamdressing und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "LACHS IM WOK scharf",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "LACHS IM WOK scharf",
+        "price": 17,
+        "description": {
+            "DE": "Gegrillte Lachs, gebratenen Karotten, Zucchini, Paprika, Brocolli in Homemade curry Sauce und Reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": " MANGO ENTE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": " MANGO ENTE",
+        "price": 16,
+        "description": {
+            "DE": "Gegrillte Entenbrust mit Mango Créme verfeinert mit Kokosmilch, serviert mit Rucola Salat, Reis, Salsa Roja und gerösteten Cashew Kernen",
+            "EN": "Grilled duck breast with mango creme with coconut milk, served with rucola salad, rice and roasted cashew nuts"
+        },
+        "imgSrc": "h-mango-ente.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "HOMEMADE CURRY",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "HOMEMADE CURRY",
+        "price": 13,
+        "description": {
+            "DE": "Homemade Curry-Soße mit Hokaido Kurbis, Paprika, Zucchini, Karroten, serviert mit SprossenWildkräuter Salat und Salsa Roja, gerösteten Erdnüssen und Sesamreis. ",
+            "EN": "Homemade Curry-Sauce with pumpkin, paprika, zuchhini und carrots served with sprout-herb salad, salsa roja, roasted peanut, sesame rice."
+        },
+        "imgSrc": "h-curry-huhn.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "SWEET SALMON",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "SWEET SALMON",
+        "price": 17,
+        "description": {
+            "DE": "Gegrilltes Lachsfilet mit grünem Spargel (oder Gemüse der Saison) gebraten in Soja Balsamico Dressing, serviert mit frischem Salat, Sesamreis, Guacamole und Salsa Roja",
+            "EN": "Grilled salmon filet with green asparagus (or seasonal vegatables) in soja balsamico dressing, served with fresh salad, sesame rice, guacamole and salsa roja"
+        },
+        "imgSrc": "h-sweet-salmon-2.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KING PRAWN",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KING PRAWN",
+        "price": 25,
+        "description": {
+            "DE": "5 stk gegrillte großgarnelen, wok saisonle gemüse, reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "CURRY ENTE scharf",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "CURRY ENTE scharf",
+        "price": 17,
+        "description": {
+            "DE": "gegrillte weibliche entenbrust, homemade curry-soße mit hähnchen, butternut kürbis, karotten, broccoli, aubergine, paprika, zucchini. serviert mit salat sesamdressing und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "KNUSPRIGE ENTE",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "KNUSPRIGE ENTE",
+        "price": 17,
+        "description": {
+            "DE": "gegrillte weibliche entenbrust, homemade curry-soße mit hähnchen, butternut kürbis, karotten, broccoli, aubergine, paprika, zucchini. serviert mit salat sesamdressing und reis",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "WOK VEGETABLES",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "WOK VEGETABLES",
+        "price": 9,
+        "description": {
+            "DE": "Gebratenes saisonales Gemüse, serviert mit Reis",
+            "EN": "Stir fried vegetables, rice"
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "UDON",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "UDON",
+        "price": 13,
+        "description": {
+            "DE": "Gebratene Udon Nudeln, Spargel, Pak Choi Sauce, braune Champignons, Butter-Sake Sauce",
+            "EN": null
+        },
+        "imgSrc": "h-udon.jpeg",
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    },
+    {
+        "skuId": "HÄHNCHEN FUSION",
+        "childSkuIds": null,
+        "parentSkuId": null,
+        "name": "HÄHNCHEN FUSION",
+        "price": 14,
+        "description": {
+            "DE": "Gebratene Hähnchenbrust, zucchini, brokkoli, paprika, karotten",
+            "EN": null
+        },
+        "imgSrc": null,
+        "selector": {
+            "restaurantId": "komari",
+            "discount": false,
+            "category": "Hauptspeise",
+            "valid": true
+        }
+    }
+]

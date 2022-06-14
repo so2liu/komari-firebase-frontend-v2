@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import Stripe from "stripe";
-import { getMenuItems } from "../../../data/menuItem";
+import { getMenuItems } from "../../../data/firebase/firestore";
 
 const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY!, {
     apiVersion: "2020-08-27",

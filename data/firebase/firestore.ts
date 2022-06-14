@@ -25,6 +25,12 @@ export const getMenu = async () => {
     return menu;
 };
 
+export const getMenuItems = async (ids: string[]) => {
+    const q = query(dbRef, ...basicQuery, where("skuId", "in", ids));
+    const docs = await getDocs(q);
+    const menu: MenuV2 = docs.docs.map((doc) => doc.data());
+    return menu;
+};
 
 
 export const useMenuV2 = (category: string) => {

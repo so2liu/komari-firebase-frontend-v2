@@ -1,3 +1,4 @@
+import { isNull } from "lodash";
 import { PropsWithChildren, useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
 import { useMenuItemV2 } from "../data/firebase/firestore";
@@ -12,6 +13,9 @@ function MenuItemChild(props: PropsWithChildren<Props>) {
     const { addItem } = useShoppingCart();
 
     const handleAddItem = useCallback(() => {
+        if (isNull(price)) {
+            return;
+        }
         addItem({
             id,
             name: name,
