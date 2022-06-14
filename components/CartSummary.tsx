@@ -1,6 +1,7 @@
+import axios from "axios";
 import { FormEventHandler, useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
-import { fetchPostJSON } from "../utils/apiHelpers";
+// import { fetchPostJSON } from "../utils/apiHelpers";
 
 function CartSummary() {
     const {
@@ -11,19 +12,15 @@ function CartSummary() {
         redirectToCheckout,
     } = useShoppingCart();
 
-
     const handleCheckout: FormEventHandler<HTMLFormElement> = useCallback(
         async (event) => {
             event.preventDefault();
-            const response = await fetchPostJSON(
+            const response = await axios.post(
                 "/api/checkout_sessions/cart",
                 cartDetails
             );
-            if (response.statusCode > 399) {
-                console.error(response.statusCode, response.body);
-                return;
-            }
-            const result = await redirectToCheckout(response.id);
+            const result = await redirectToCheckout(response.data.id);
+            console.log({ result });
         },
         [cartDetails, redirectToCheckout]
     );

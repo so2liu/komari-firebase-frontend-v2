@@ -17,7 +17,6 @@ interface Props {
 }
 function Sushi(props: PropsWithChildren<Props>) {
     const restaurant = "taumi";
-    console.log("props", props.menu?.length);
     const menu =
         props.menu?.filter(
             (item) => item.selector.restaurantId === restaurant
