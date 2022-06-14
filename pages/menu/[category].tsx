@@ -12,7 +12,8 @@ import { capitalizeStart } from "../../utils/stringUtils";
 function Sushi(props: any) {
     // const menu = useMenuV2(capitalizeStart(category as string));
     const menu = props.menu as MenuV2;
-    console.log("length", menu.length);
+    console.log("length", menu?.length);
+    console.log("props", Object.keys(props));
     return (
         <Cart>
             <div>
