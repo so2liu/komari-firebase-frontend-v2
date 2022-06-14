@@ -70,12 +70,13 @@ function transformItemV1ToV2(
 export function transform(v1: MenuV1, restaurantId: string): MenuV2 {
     const menu: MenuV2 = [];
     Object.keys(v1).forEach((normalLevel) => {
-        const categories = Object.keys(v1[normalLevel]);
+        const categories = Object.keys(
+            v1[normalLevel as keyof MenuV1] as object
+        );
         categories.forEach((category) => {
-            const currentV1 = v1[normalLevel][category] as Record<
-                string,
-                MenuItemV1
-            >;
+            const currentV1 = (v1[normalLevel as keyof MenuV1] as any)[
+                category
+            ] as Record<string, MenuItemV1>;
             const list = Object.entries(currentV1).reduce((acc, curr) => {
                 const [skuId, content] = curr;
                 const current = transformItemV1ToV2(
