@@ -23,9 +23,7 @@ function CartSummary() {
                 console.error(response.statusCode, response.body);
                 return;
             }
-            console.log("response", response);
             const result = await redirectToCheckout(response.id);
-            console.log(result);
         },
         [cartDetails, redirectToCheckout]
     );

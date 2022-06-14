@@ -94,8 +94,6 @@ export function transform(v1: MenuV1, restaurantId: string): MenuV2 {
     return menu;
 }
 
-console.log(transform(taumiMenuV1, "taumi"));
-console.log(transform(komariMenuV1, "komari"));
 const allMenu = transform(taumiMenuV1, "taumi").concat(
     transform(komariMenuV1, "komari")
 );

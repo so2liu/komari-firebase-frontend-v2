@@ -10,7 +10,6 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
 ) {
-    console.log(req.body);
     if (req.method === "POST") {
         const ids = Object.keys(req.body);
         const items = await getMenuItems(ids);

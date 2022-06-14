@@ -2,7 +2,6 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 import Stripe from "stripe";
 const sk = process.env.STRIPE_PRIVATE_KEY;
-console.log("sk   ", sk);
 const stripe = new Stripe(sk!, {
     // https://github.com/stripe/stripe-node#configuration
     apiVersion: "2020-08-27",
