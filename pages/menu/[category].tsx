@@ -42,16 +42,19 @@ interface Params extends ParsedUrlQuery {
 export const getStaticProps: GetStaticProps<{}, Params> = async (context) => {
     const category = context.params?.category;
     const menu = await getMenu();
-    console.log("menu", menu);
+    console.log({ category, context });
+    const filteredMenu = menu.filter(
+        (item) => item.selector.category === capitalizeStart(category as string)
+    );
     return {
         props: {
-            menu: menu.filter((item) => item.selector.category === category),
+            menu: filteredMenu,
         },
     };
 };
 export const getStaticPaths: GetStaticPaths = async () => {
     return {
         paths: [{ params: { category: "sushi" } }],
-        fallback: false,
+        fallback: true,
     };
 };
