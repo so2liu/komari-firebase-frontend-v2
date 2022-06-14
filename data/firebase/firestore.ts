@@ -6,6 +6,7 @@ import {
     getDocs,
     getFirestore,
     query,
+    QueryConstraint,
     where,
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
@@ -29,8 +30,12 @@ export const getMenu = async () => {
     return menu;
 };
 
-export const getMenuItems = async (ids: string[]) => {
-    const q = query(dbRef, ...basicQuery, where("skuId", "in", ids));
+export const getMenuItems = async (ids?: string[]) => {
+    const conditions = [
+        ...basicQuery,
+        ids ? where("skuId", "in", ids) : undefined,
+    ].filter((i) => !!i) as QueryConstraint[];
+    const q = query(dbRef, ...conditions);
     const docs = await getDocs(q);
     const menu: MenuV2 = docs.docs.map((doc) => doc.data());
     return menu;
