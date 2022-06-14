@@ -10,7 +10,7 @@ import { getMenu, useMenuV2 } from "../../data/firebase/firestore";
 import { MenuV2 } from "../../data/menuItem";
 import { capitalizeStart } from "../../utils/stringUtils";
 import { Masonry } from "@mui/lab";
-
+import { MENU_CATEGORY } from "../../constant/router";
 
 interface Props {
     menu: MenuV2;
@@ -29,7 +29,6 @@ function Sushi(props: PropsWithChildren<Props>) {
                     <CartSummary />
                 </section>
                 <section>
-                    <h1>Sushi</h1>
                     <Masonry columns={4}>
                         {menu?.map((item) => (
                             <MenuItemCard
@@ -68,7 +67,11 @@ export const getStaticProps: GetStaticProps<Props, Params> = async (
 };
 export const getStaticPaths: GetStaticPaths = async () => {
     return {
-        paths: [{ params: { category: "sushi" } }],
+        paths: MENU_CATEGORY.map((category) => ({
+            params: {
+                category,
+            },
+        })),
         fallback: true,
     };
 };

@@ -6,7 +6,7 @@ import { app } from ".";
 const storage = getStorage(app);
 const getImageUrl = (imgSrc: string) => {
     const imgRef = ref(storage, "komari/" + imgSrc);
-    return getDownloadURL(imgRef);
+    return getDownloadURL(imgRef).catch(console.error);
 };
 
 export const useImageUrl = (imgSrc?: string) => {
@@ -14,7 +14,7 @@ export const useImageUrl = (imgSrc?: string) => {
     useEffect(() => {
         if (imgSrc) {
             getImageUrl(imgSrc).then((url) => {
-                setImageUrl(url);
+                if (url) setImageUrl(url);
             });
         }
     }, [imgSrc]);
