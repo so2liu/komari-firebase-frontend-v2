@@ -24,7 +24,7 @@ function MenuItemChild(props: PropsWithChildren<Props>) {
     return (
         <div>
             <h4>
-                {name}: {price} Euro
+                {id} - {name}: {price} Euro
             </h4>
             {price && <button onClick={handleAddItem}>Add to cart</button>}
         </div>

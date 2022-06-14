@@ -5,6 +5,7 @@ import { PropsWithChildren, useEffect } from "react";
 import Cart from "../../components/Cart";
 import CartSummary from "../../components/CartSummary";
 import MenuItemCard from "../../components/MenuItemCard";
+import NaiveNav from "../../components/NaiveNav";
 import { getMenu, useMenuV2 } from "../../data/firebase/firestore";
 import { MenuV2 } from "../../data/menuItem";
 import { capitalizeStart } from "../../utils/stringUtils";
@@ -13,12 +14,13 @@ interface Props {
     menu: MenuV2;
 }
 function Sushi(props: PropsWithChildren<Props>) {
-    // const menu = useMenuV2(capitalizeStart(category as string));
-    const menu = props.menu;
-    console.log("length", menu?.length);
-    console.log("props", Object.keys(props));
+    const restaurant = "taumi";
+    const menu = props.menu.filter(
+        (item) => item.selector.restaurantId === restaurant
+    );
     return (
         <Cart>
+            <NaiveNav />
             <div>
                 <section>
                     <CartSummary />

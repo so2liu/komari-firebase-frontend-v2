@@ -5,6 +5,7 @@ import MenuItemCard from "../components/MenuItemCard";
 import { useEffect } from "react";
 import { getMenu } from "../data/firebase/firestore";
 import "../data/transform";
+import NaiveNav from "../components/NaiveNav";
 
 const CheckoutPage: NextPage = () => {
     useEffect(() => {
@@ -12,6 +13,7 @@ const CheckoutPage: NextPage = () => {
     }, []);
     return (
         <Cart>
+            <NaiveNav />
             <div>
                 <h1>Checkout</h1>
                 <CartSummary />
