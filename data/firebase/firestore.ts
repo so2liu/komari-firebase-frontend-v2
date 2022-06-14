@@ -13,26 +13,19 @@ import { MenuItemV2, MenuV2 } from "../menuItem";
 import useSWR from "swr";
 
 const db = getFirestore(app);
-
-export const getMenu = async () => {
-    const restaurant = "komari";
-    const querySnapshot = await getDocs(collection(db, restaurant));
-    querySnapshot.forEach((doc) => {
-        // const data = doc.data();
-        // console.log(`${doc.id} =>`);
-        // const blob = new Blob([JSON.stringify(data, null, 2)], {
-        //     type: "application/json",
-        // });
-        // FileSaver.saveAs(blob, `${restaurant}-${doc.id}.json`);
-    });
-};
-
 const dbRef = collection(db, "menuV2") as CollectionReference<MenuItemV2>;
-
 const basicQuery = [
     where("selector.restaurantId", "==", "taumi"),
     where("selector.valid", "==", true),
 ];
+export const getMenu = async () => {
+    const q = query(dbRef);
+    const docs = await getDocs(q);
+    const menu: MenuV2 = docs.docs.map((doc) => doc.data());
+    return menu;
+};
+
+
 
 export const useMenuV2 = (category: string) => {
     const [menu, setMenu] = useState<MenuV2>([]);
