@@ -18,12 +18,16 @@ export default async function handler(
             submit_type: "pay",
             payment_method_types: ["card"],
             billing_address_collection: "auto",
-            line_items: items.map((item) => ({
-                name: item.name,
-                amount: item.price * 100,
-                currency: "eur",
-                quantity: req.body[item.skuId].quantity,
-            })),
+            line_items: items
+                .filter((item) => typeof item.price === "number")
+                .map((item) => {
+                    return {
+                        name: item.name,
+                        amount: item.price! * 100,
+                        currency: "eur",
+                        quantity: req.body[item.skuId].quantity,
+                    };
+                }),
             success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
             cancel_url: `${req.headers.origin}/checkout`,
             mode: "payment",
