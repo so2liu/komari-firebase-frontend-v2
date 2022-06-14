@@ -56,7 +56,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async (
 ) => {
     const category = context.params?.category;
     const menu = await getMenu();
-    const filteredMenu = menu.filter(
+    const filteredMenu = menu?.filter(
         (item) => item.selector.category === capitalizeStart(category as string)
     );
     return {
