@@ -8,7 +8,7 @@ interface Props {
 function MenuItemChild(props: PropsWithChildren<Props>) {
     const { id } = props;
     const menuItem = useMenuItemV2(id);
-    const { name, price = 0 } = menuItem.data!;
+    const { name = "", price = 0 } = menuItem?.data!;
     const { addItem } = useShoppingCart();
 
     const handleAddItem = useCallback(() => {
@@ -20,6 +20,7 @@ function MenuItemChild(props: PropsWithChildren<Props>) {
         });
     }, [addItem, id, name, price]);
 
+    if (!menuItem) return null;
     return (
         <div>
             <h4>

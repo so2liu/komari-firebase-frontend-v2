@@ -54,8 +54,13 @@ export const useMenuItemV2 = (skuId: string) => {
                 `More than one menu item found for skuId: ${skuId}`
             );
         }
-        const data = snapshot.docs[0].data();
-        return data;
+        try {
+            const data = snapshot.docs[0]?.data();
+            return data;
+        } catch (error) {
+            console.error(error);
+            return undefined;
+        }
     };
     return useSWR(skuId, fetcher, { suspense: true });
 };
