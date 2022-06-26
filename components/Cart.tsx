@@ -1,6 +1,11 @@
 import type { PropsWithChildren } from "react";
 import { CartProvider } from "use-shopping-cart";
 
+console.log(
+    "stripe public key",
+    process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY ?? ""
+);
+
 function Cart(props: PropsWithChildren<{}>) {
     return (
         <CartProvider
