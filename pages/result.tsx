@@ -1,30 +1,39 @@
+import { doc, getDoc } from "firebase/firestore";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import { fetchGetJSON } from "../utils/apiHelpers";
+import NaiveNav from "../components/NaiveNav";
+import { orderCollection } from "../data/firebase/client";
+import { OrderItemV3 } from "../data/order";
 
 const ResultPage: NextPage = () => {
     const router = useRouter();
 
-    // Fetch CheckoutSession from static page via
-    // https://nextjs.org/docs/basic-features/data-fetching#static-generation
-    const { data, error } = useSWR(
-        router.query.session_id
-            ? `/api/checkout_sessions/${router.query.session_id}`
-            : null,
-        fetchGetJSON
+    const result = useSWR(
+        router.query.order_id ? ["result", router.query.order_id] : null,
+        async (url, orderId) => {
+            const res = await getDoc<OrderItemV3>(
+                doc(orderCollection, orderId as string)
+            );
+            return res.data();
+        }
     );
 
-    if (error) return <div>failed to load</div>;
+    if (result.error) {
+        return <div>Error: {JSON.stringify(result.error)} </div>;
+    }
+    if (!result.data) {
+        return <div>Loading...</div>;
+    }
+    const data = result.data;
     return (
         <div className="page-container">
+            <NaiveNav />
             <h1>Checkout Payment Result</h1>
-            <h2>Status: {data?.payment_intent?.status ?? "loading..."}</h2>
+            <h2>Status: {data?.payment?.status}</h2>
             <h3>CheckoutSession response:</h3>
-            <p>
-                Already paid {data?.payment_intent?.amount_received / 100} EUR
-            </p>
-            <p>Status: {data?.payment_intent?.status ?? "loading..."}</p>
+            <p>Already paid {(data?.payment?.amountReceived ?? 0) / 100} EUR</p>
+            <p>Status: {data?.payment?.status}</p>
         </div>
     );
 };

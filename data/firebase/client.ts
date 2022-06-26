@@ -1,52 +1,28 @@
-import { app } from ".";
+import { app } from "./clientApp";
 import {
     collection,
     CollectionReference,
-    getDoc,
     getDocs,
     getFirestore,
     query,
-    QueryConstraint,
     where,
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { MenuItemV2, MenuV2 } from "../menuItem";
+import { OrderItemV3 } from "../order";
 import useSWR from "swr";
+import { basicQuery } from "./common";
 
-const db = getFirestore(app);
-const dbRef = collection(db, "menuV2") as CollectionReference<MenuItemV2>;
-const basicQuery = [
-    where("selector.restaurantId", "==", "taumi"),
-    where("selector.valid", "==", true),
-];
-export const getMenu = async () => {
-    const q = query(
-        dbRef,
-        where("selector.valid", "==", true),
-        where("parentSkuId", "==", null)
-    );
-    const docs = await getDocs(q);
-    const menu: MenuV2 = docs.docs.map((doc) => doc.data());
-    return menu;
-};
-
-export const getMenuItems = async (ids?: string[]) => {
-    const conditions = [
-        ...basicQuery,
-        ids ? where("skuId", "in", ids) : undefined,
-    ].filter((i) => !!i) as QueryConstraint[];
-    const q = query(dbRef, ...conditions);
-    const docs = await getDocs(q);
-    const menu: MenuV2 = docs.docs.map((doc) => doc.data());
-    return menu;
-};
-
+const menuCollection = collection(
+    getFirestore(app),
+    "menuV2"
+) as CollectionReference<MenuItemV2>;
 
 export const useMenuV2 = (category: string) => {
     const [menu, setMenu] = useState<MenuV2>([]);
     useEffect(() => {
         const q = query(
-            dbRef,
+            menuCollection,
             where("selector.category", "==", category),
             ...basicQuery
         );
@@ -61,7 +37,11 @@ export const useMenuV2 = (category: string) => {
 
 export const useMenuItemV2 = (skuId: string) => {
     const fetcher = async (skuId: string) => {
-        const q = query(dbRef, ...basicQuery, where("skuId", "==", skuId));
+        const q = query(
+            menuCollection,
+            ...basicQuery,
+            where("skuId", "==", skuId)
+        );
         const querySnapshot = getDocs(q);
         const snapshot = await querySnapshot;
         if (snapshot.size > 1) {
@@ -71,7 +51,7 @@ export const useMenuItemV2 = (skuId: string) => {
         }
         try {
             const data = snapshot.docs[0]?.data();
-            return data;
+            return { id: snapshot.docs[0].id, ...data };
         } catch (error) {
             console.error(error);
             return undefined;
@@ -79,3 +59,8 @@ export const useMenuItemV2 = (skuId: string) => {
     };
     return useSWR(skuId, fetcher, { suspense: true });
 };
+
+export const orderCollection = collection(
+    getFirestore(app),
+    "ordersV3"
+) as CollectionReference<OrderItemV3>;

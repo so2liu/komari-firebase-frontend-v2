@@ -1,6 +1,6 @@
 import { getDownloadURL, getStorage, ref } from "firebase/storage";
 import { useEffect, useState } from "react";
-import { app } from ".";
+import { app } from "./clientApp";
 
 // Create a reference with an initial file path and name
 const storage = getStorage(app);

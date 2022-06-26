@@ -20,7 +20,7 @@ export default async function handler(
             await stripe.checkout.sessions.retrieve(id, {
                 expand: ["payment_intent"],
             });
-
+            checkout_session.payment_intent;
         res.status(200).json(checkout_session);
     } catch (err) {
         const errorMessage =

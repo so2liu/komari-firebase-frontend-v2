@@ -1,26 +1,26 @@
 import { isNull } from "lodash";
 import { useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
-import { useMenuItemV2 } from "../data/firebase/firestore";
+import { useMenuItemV2 } from "../data/firebase/client";
 
-function BuyButtonGroup(props: { id: string }) {
-    const { id } = props;
+function BuyButtonGroup(props: { skuId: string }) {
+    const { skuId } = props;
     const { addItem, incrementItem, decrementItem, quantity } = useShoppingCart(
-        (s) => s.cartDetails[id]
+        (s) => s.cartDetails[skuId]
     );
-    const menuItem = useMenuItemV2(id);
+    const menuItem = useMenuItemV2(skuId);
     const { name = "", price = 0 } = menuItem?.data!;
     const handleAddItem = useCallback(() => {
         if (isNull(price)) {
             return;
         }
         addItem({
-            id,
+            id: menuItem.data?.id ?? "",
             name: name,
             price: price * 100,
             currency: "EUR",
         });
-    }, [addItem, id, name, price]);
+    }, [addItem, menuItem.data?.id, name, price]);
 
     return (
         <div
@@ -38,9 +38,9 @@ function BuyButtonGroup(props: { id: string }) {
                         borderRadius: "4px",
                     }}
                 >
-                    <button onClick={() => incrementItem(id)}>+</button>
+                    <button onClick={() => incrementItem(skuId)}>+</button>
                     <span style={{ margin: "0 8px" }}>{quantity}</span>
-                    <button onClick={() => decrementItem(id)}>-</button>
+                    <button onClick={() => decrementItem(skuId)}>-</button>
                 </div>
             ) : (
                 <button style={{ width: "100%" }} onClick={handleAddItem}>

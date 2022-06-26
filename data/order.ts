@@ -1,4 +1,13 @@
-export interface OrderItem {
+type PaymentIndentStatus =
+    | "canceled"
+    | "processing"
+    | "requires_action"
+    | "requires_capture"
+    | "requires_confirmation"
+    | "requires_payment_method"
+    | "succeeded";
+
+export interface OrderItemV3 {
     contactInfo: {
         wish: string;
         tel: string;
@@ -14,24 +23,24 @@ export interface OrderItem {
         city: string;
         method: string;
     };
-    isDev: string;
-    updatedAt: {
-        _seconds: number;
-        _nanoseconds: number;
-    };
+    isDev: boolean;
     partnerName: "taumi" | "komari" | string;
     uid: string;
-    createdAt: {
-        _seconds: number;
-        _nanoseconds: number;
-    };
-    order: {
+    orders: {
         quantity: number;
         price: number;
         id: string;
         name: string;
     }[];
-
-    paid: boolean;
-    version: "v2";
+    stripe: {
+        successRedirectPrefix: string;
+        cancelRedirect: string;
+        sessionId: string;
+    } | null;
+    payment: {
+        method: "stripe";
+        status: PaymentIndentStatus;
+        amountReceived: number;
+    } | null;
+    version: "v3";
 }

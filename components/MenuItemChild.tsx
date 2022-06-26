@@ -1,7 +1,7 @@
 import { isNull } from "lodash";
 import { PropsWithChildren, useCallback } from "react";
 import { useShoppingCart } from "use-shopping-cart";
-import { useMenuItemV2 } from "../data/firebase/firestore";
+import { useMenuItemV2 } from "../data/firebase/client";
 import BuyButtonGroup from "./BuyButtonGroup";
 
 interface Props {
@@ -24,7 +24,7 @@ function MenuItemChild(props: PropsWithChildren<Props>) {
             <span style={{ marginRight: 16 }}>
                 {id} - {name}: {price} Euro
             </span>
-            {price && <BuyButtonGroup id={id} />}
+            {price && <BuyButtonGroup skuId={id} />}
         </div>
     );
 }

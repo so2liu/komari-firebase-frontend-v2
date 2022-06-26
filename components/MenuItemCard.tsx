@@ -25,7 +25,7 @@ function MenuItemCard(props: PropsWithChildren<Props>) {
                 margin: 8,
                 padding: 8,
                 display: "inline-block",
-                width: 400,
+                // width: 400,
             }}
         >
             {imageUrl && (
@@ -48,7 +48,7 @@ function MenuItemCard(props: PropsWithChildren<Props>) {
                 <span style={{ marginRight: 16 }}>
                     {name}: {price && price + " Euro"}
                 </span>
-                {price && <BuyButtonGroup id={id} />}
+                {price && <BuyButtonGroup skuId={id} />}
             </div>
             {childIds?.map((childId) => (
                 <Suspense key={childId} fallback={<div>Loading...</div>}>
